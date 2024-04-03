@@ -1,0 +1,1012 @@
+
+
+body {
+    margin: 0;
+}
+
+hr {
+    width: 10%;
+    border: none;
+    border-top: 5px dotted #E1C78F;
+}
+
+h1 {
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Bona Nova", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+p {
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.break-line {
+    display: none;
+}
+
+.hero-section {
+    background-color: #FAE7C9;
+    display: flex;
+    justify-content: space-evenly;
+    height: 850px;
+    margin-bottom: 100px;
+}
+
+.heading {
+    margin-top: 150px;
+}
+
+.heading > p {
+    font-size: 1.5rem;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: start;
+}
+
+.profile-picture {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin: 0px;
+    margin-top: 150px;
+}
+
+.skills-text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill-card {
+    height: 400px;
+    width: 1000px;
+    background-color: #FAE7C9;
+    border-radius: 12px;
+}
+
+.webdev-rating-container {
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.webdev-rating-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trombone-img-container {
+    height: 200px;
+    width: 300px;
+}
+
+.trombone-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid #B0926A;
+}
+
+.piano-img-container {
+    height: 200px;
+    width: 300px;
+}
+
+.piano-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid #B0926A;
+}
+
+.grid-container-about {
+    height: 850px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+}
+
+.grid-item {
+    border-radius: 12px;
+    background-color: #E1C78F;
+}
+
+.education {
+    grid-area: 1 / 1 / 7 / 7;
+}
+
+.about {
+    grid-area: 1 / 7 / 4 / -1;
+}
+
+.work-experience {
+    grid-area: 7 / 1 / -1 / 7;
+}
+
+.hobbies {
+    grid-area: 4 / 7 / -1 / -1;
+}
+
+.date-list li {
+    margin-bottom: 12px;
+}
+
+.tusk, .lindhoy, .job {
+    margin-left: 25px;
+}
+
+.about > p {
+    padding-top: 16px;
+}
+
+.hobbies-list-container {
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hobbies-list-container > li {
+    list-style: none;
+}
+
+.hobbie-img {
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-right: 50px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid #B0926A;
+}
+
+#projects-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.grid-container-projects {
+    height: 725px;
+    width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 12px;
+}
+
+.mondrian-painting {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.web-design-agency {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.coming-soon {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.project {
+    background-color: #E1C78F;
+    height: 300px;
+    width: 400px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 4px solid #b0926a;
+}
+
+.wba-img {
+    width: 275px;
+    object-fit: fill;
+}
+
+.coming-soon-img {
+    width: 275px;
+    object-fit: cover;
+}
+
+
+.li-bottom {
+    margin-bottom: 0;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+footer {
+    background-color: #FAE7C9;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px;
+}
+
+footer  ul  li  svg {
+    margin-right: 6px;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 1325px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .heading {
+        margin-top: 125px;
+    }
+
+    .heading > p {
+        font-size: 1.1rem;
+        margin-top: 5px;
+    }
+
+    .profile-picture {
+        height: 300px;
+        width: 300px;
+        margin-top: 125px;
+    }
+
+    .webdev-rating-container {
+        height: 250px;
+        width: 500px;
+    }
+
+    .skill-card {
+        height: 400px;
+        width: 900px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 175px;
+        width: 275px;
+    }
+
+    .grid-container-about {
+        height: 825px;
+        width: 900px;
+        margin-top: 50px;
+        gap: 10px;
+    }
+
+    .grid-container-projects {
+        height: 700px;
+        width: 1145px;
+        gap: 10px;
+        grid-template-columns: repeat(3, 375px);
+        grid-template-rows: repeat(2, 275px);
+    }
+
+    .project {
+        height: 275px;
+        width: 375px;
+    }
+
+    .project-img {
+        height: 125px;
+        width: 125px;
+    }
+
+    .wba-img {
+        width: 250px;
+        object-fit: fill;
+    }
+    
+    .coming-soon-img {
+        width: 250px;
+        object-fit: cover;
+    }
+
+    footer ul, .footer-text {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 1225px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    .heading, .profile-picture {
+        margin-top: 100px;
+    }
+
+    .hero-section {
+        height: 800px;
+        margin-bottom: 75px;
+    }
+
+    .profile-picture {
+        height: 275px;
+        width: 275px;
+    }
+
+    .heading > p {
+        margin-top: 4px;
+    }
+
+    .skills-container {
+        height: 725px;
+    }
+
+    .skill-card {
+        height: 325px;
+        width: 800px;
+    }
+
+    .webdev-rating-container {
+        height: 225px;
+        width: 475px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 150px;
+        width: 250px;
+    }
+
+    .grid-container-about {
+        height: 800px;
+        width: 800px;
+    }
+
+    .hobbie-img {
+        height: 75px;
+        width: 75px;
+        margin-right: 40px;
+    }
+
+    .grid-container-projects {
+        height: 700px;
+        width: 1040px;
+        grid-template-columns: repeat(3, 340px);
+        grid-template-rows: repeat(2, 240px);
+    }
+
+    .project {
+        height: 240px;
+        width: 340px;
+    }
+
+    .project-img {
+        height: 115px;
+        width: 115px;
+    }
+
+    .wba-img {
+        width: 235px;
+        object-fit: fill;
+    }
+    
+    .coming-soon-img {
+        width: 235px;
+        object-fit: cover;
+    }
+    
+    footer .footer-container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    footer ul, .footer-text {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1115px) {
+
+    html {
+        font-size: 13px;
+    }
+
+    .profile-picture {
+        height: 260px;
+        width: 260px;
+    }
+
+    .skills-container {
+        height: 705px;
+    }
+
+    .skill-card {
+        height: 315px;
+        width: 725px;
+    }
+
+    .webdev-rating-container {
+        height: 200px;
+        width: 450px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 140px;
+        width: 240px;
+    }
+
+    .grid-container-about {
+        height: 775px;
+        width: 725px;
+    }
+
+    .hobbie-img {
+        height: 75px;
+        width: 75px;
+        margin-right: 40px;
+    }
+
+    #projects-title {
+        margin: 65px 0 40px;
+    }
+
+    .grid-container-projects {
+        height: 550px;
+        width: 980px;
+        grid-template-columns: repeat(3, 320px);
+        grid-template-rows: repeat(2, 200px);
+    }
+
+    .project {
+        height: 200px;
+        width: 320px;
+    }
+
+    .project-img {
+        height: 105px;
+        width: 105px;
+    }
+
+    .wba-img {
+        width: 225px;
+        object-fit: fill;
+    }
+    
+    .coming-soon-img {
+        width: 225px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1025px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .profile-picture {
+        height: 250px;
+        width: 250px;
+    }
+
+    .skills-container {
+        height: 675px;
+    }
+
+    .skill-card {
+        height: 300px;
+        width: 690px;
+    }
+
+    .webdev-rating-container {
+        height: 200px;
+        width: 425px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 130px;
+        width: 230px;
+    }
+
+    .grid-container-about {
+        height: 755px;
+        width: 690px;
+    }
+
+    .hobbie-img {
+        height: 75px;
+        width: 75px;
+        margin-right: 40px;
+    }
+
+    #projects-title {
+        margin: 60px 0 35px;
+    }
+
+    .grid-container-projects {
+        height: 550px;
+        width: 920px;
+        grid-template-columns: repeat(3, 300px);
+        grid-template-rows: repeat(2, 180px);
+    }
+
+    .project {
+        height: 180px;
+        width: 300px;
+    }
+
+    .project h3 {
+        margin: 15px 0;
+    }
+
+    .project-img {
+        height: 95px;
+        width: 95px;
+    }
+
+    .wba-img {
+        width: 210px;
+        object-fit: fill;
+    }
+    
+    .coming-soon-img {
+        width: 210px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 960px) {
+
+    html {
+        font-size: 11px;
+    }
+
+    .profile-picture {
+        height: 225px;
+        width: 225px;
+    }
+
+    .skills-container {
+        height: 650px;
+    }
+
+    .skill-card {
+        height: 285px;
+        width: 625px;
+    }
+
+    .webdev-rating-container {
+        height: 200px;
+        width: 405px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 120px;
+        width: 220px;
+    }
+
+    .grid-container-about {
+        height: 740px;
+        width: 625px;
+    }
+
+    .hobbie-img {
+        height: 65px;
+        width: 65px;
+        margin-right: 40px;
+    }
+
+    #projects-title {
+        margin: 55px 0 30px;
+    }
+
+    .grid-container-projects {
+        height: 550px;
+        width: 815px;
+        grid-template-columns: repeat(3, 265px);
+        grid-template-rows: repeat(2, 160px);
+    }
+
+    .project {
+        height: 160px;
+        width: 265px;
+    }
+
+    .project h3 {
+        margin: 12px 0;
+    }
+
+    .project-img {
+        height: 85px;
+        width: 85px;
+    }
+
+    .wba-img, .coming-soon-img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .profile-picture {
+        height: 175px;
+        width: 175px;
+    }
+
+    .skills-container {
+        height: 590px;
+    }
+
+    .skill-card {
+        height: 250px;
+        width: 525px;
+    }
+
+    .webdev-rating-container {
+        height: 200px;
+        width: 350px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 100px;
+        width: 200px;
+    }
+
+    .grid-container-about {
+        height: 710px;
+        width: 525px;
+    }
+
+    .tusk, .lindhoy, .job {
+        margin-left: 20px;
+    }
+
+    .hobbie-img {
+        height: 55px;
+        width: 55px;
+        margin-right: 20px;
+    }
+
+    #projects-title {
+        margin: 50px 0 25px;
+    }
+
+    .grid-container-projects {
+        height: 450px;
+        width: 695px;
+        grid-template-columns: repeat(3, 225px);
+        grid-template-rows: repeat(2, 140px);
+    }
+
+    .project {
+        height: 140px;
+        width: 225px;
+    }
+
+    .project h3 {
+        margin: 12px 0;
+    }
+
+    .project-img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .wba-img, .coming-soon-img {
+        width: 170px;
+    }
+}
+
+@media (max-width: 715px) {
+    
+    html {
+        font-size: 8px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .heading > p {
+        margin-top: 5px;
+        font-size: 1.5rem;
+    }
+
+    .profile-picture {
+        height: 150px;
+        width: 150px;
+    }
+
+    .skills-container {
+        height: 475px;
+    }
+
+    .skill-card {
+        height: 200px;
+        width: 440px;
+    }
+
+    .webdev-rating-container {
+        height: 200px;
+        width: 300px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 85px;
+        width: 175px;
+    }
+
+    .grid-container-about {
+        height: 595px;
+        width: 440px;
+    }
+
+    .grid-item ul li, .grid-item p {
+        font-size: 1.2rem;
+    }
+
+    .hobbies > ul {
+        padding-left: 20px;
+    }
+
+    .hobbies-list-container {
+        height: 425px;
+    }
+
+    .hobbie-img {
+        height: 50px;
+        width: 50px;
+        margin-right: 5px;
+    }
+
+    #projects-title {
+        margin: 45px 0 20px;
+    }
+
+    .grid-container-projects {
+        height: 925px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project {
+        height: 200px;
+        width: 440px;
+    }
+
+    .project-three, .project-four {
+        display: none;
+    }
+
+    .project h3 {
+        margin: 15px 0;
+        font-size: 1.6rem;
+    }
+
+    .project-img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .wba-img, .coming-soon-img {
+        width: 250px;
+    }
+
+    .footer-text {
+        font-size: 2.25rem;
+    }
+
+    .footer-container ul li {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    .hero-section {
+        background-color: #FAE7C9;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .profile-picture {
+        height: 225px;
+        width: 225px;
+    }
+
+    .skills-container {
+        height: 575px;
+    }
+
+    .skill-card {
+        height: 250px;
+        width: 425px;
+    }
+
+    .webdev-rating-container {
+        height: 200px;
+        width: 290px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 105px;
+        width: 190px;
+    }
+
+    .piano-img-container {
+        padding-right: 6px;
+    }
+
+    .grid-container-about {
+        height: 675px;
+        width: 440px;
+    }
+
+    .break-line {
+        display: inline;
+    }
+
+    .hobbies-list-container {
+        height: 425px;
+    }
+
+    .hobbie-img {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    #projects-title {
+        margin: 45px 0 20px;
+    }
+
+    .grid-container-projects {
+        height: 925px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project {
+        height: 200px;
+        width: 440px;
+    }
+
+    .project-three, .project-four {
+        display: none;
+    }
+
+    .project h3 {
+        margin: 15px 0;
+        font-size: 1.6rem;
+    }
+
+    .project-img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .wba-img, .coming-soon-img {
+        width: 250px;
+    }
+
+    .footer-text {
+        font-size: 2.25rem;
+    }
+
+    .footer-container ul li {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 475px) {
+
+    .skills-container {
+        height: 700px;
+    }
+
+    .skill-card {
+        height: 250px;
+        width: 425px;
+    }
+
+    .music-card {
+        height: 375px;
+    }
+
+    .webdev-rating-container {
+        height: 200px;
+        width: 290px;
+    }
+
+    .trombone-img-container, .piano-img-container {
+        height: 115px;
+        width: 200px;
+    }
+
+    .img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+
+}
